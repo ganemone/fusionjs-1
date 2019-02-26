@@ -1,0 +1,14 @@
+[ignore]
+
+[include]
+../../common/temp/node_modules
+./flow-typed/*
+
+[libs]
+./node_modules/fusion-core/flow-typed
+
+[lints]
+
+[options]
+
+[strict]

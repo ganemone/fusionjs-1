@@ -1,0 +1,52 @@
+{
+  "name": "fusion-scaffolder",
+  "version": "0.0.2",
+  "description": "A code scaffolder",
+  "license": "MIT",
+  "repository": "fusionjs/fusion-scaffolder",
+  "main": "index.js",
+  "bin": {
+    "fusion-scaffold": "bin/cli.js"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "^7.3.4",
+    "@babel/node": "^7.0.0",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/preset-flow": "^7.0.0",
+    "babel-eslint": "^10.0.1",
+    "colors": "^1.3.2",
+    "minimist": "^1.2.0",
+    "mkdirp": "^0.5.1",
+    "nunjucks": "^3.1.4",
+    "recursive-readdir": "^2.2.2"
+  },
+  "devDependencies": {
+    "eslint": "^5.14.1",
+    "eslint-config-fusion": "^4.0.0",
+    "eslint-plugin-cup": "^2.0.1",
+    "eslint-plugin-flowtype": "^3.4.2",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jest": "^22.3.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-react": "^7.12.4",
+    "flow-bin": "^0.93.0",
+    "nyc": "^13.3.0",
+    "prettier": "^1.16.4",
+    "rimraf": "^2.6.2",
+    "tape": "^4.10.1",
+    "babel-eslint": "^10.0.1"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "fast-test": "babel-node test/index.js",
+    "test": "yarn lint && yarn fast-test",
+    "cover": "nyc yarn test",
+    "build": "echo ok",
+    "flow": "flow check"
+  },
+  "engines": {
+    "node": ">=8.0.0",
+    "yarn": ">=1.0.0"
+  }
+}

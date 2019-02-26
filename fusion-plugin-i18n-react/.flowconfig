@@ -1,0 +1,17 @@
+[ignore]
+.*/node_modules/.*[^(package)]\.json$
+<PROJECT_ROOT>/dist/.*
+
+[include]
+../../common/temp/node_modules
+./src/
+
+[libs]
+./node_modules/fusion-core/flow-typed
+./node_modules/fusion-plugin-i18n/flow-typed
+
+[lints]
+
+[options]
+
+[strict]

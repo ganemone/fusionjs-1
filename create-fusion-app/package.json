@@ -1,0 +1,48 @@
+{
+  "name": "create-fusion-app",
+  "version": "0.0.6",
+  "main": "index.js",
+  "license": "MIT",
+  "bin": {
+    "create-fusion-app": "bin/cli.js"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "fusion-scaffolder": "^0.0.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^24.1.0",
+    "eslint": "^5.14.1",
+    "eslint-config-fusion": "^4.0.0",
+    "eslint-plugin-cup": "^2.0.1",
+    "eslint-plugin-flowtype": "^3.4.2",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jest": "^22.3.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-react": "^7.12.4",
+    "flow-bin": "^0.93.0",
+    "get-port": "^4.1.0",
+    "isomorphic-fetch": "^2.2.1",
+    "prettier": "^1.16.4",
+    "puppeteer": "^1.12.2",
+    "jest": "^24.1.0"
+  },
+  "scripts": {
+    "clean": "rm -rf test-artifacts",
+    "lint": "eslint .",
+    "test": "yarn clean && jest",
+    "build": "echo ok",
+    "flow": "flow check"
+  },
+  "jest": {
+    "cache": false,
+    "modulePathIgnorePatterns": [
+      "templates/.*"
+    ],
+    "testEnvironment": "node",
+    "transform": {
+      "^.+\\.jsx?$": "babel-jest"
+    }
+  }
+}

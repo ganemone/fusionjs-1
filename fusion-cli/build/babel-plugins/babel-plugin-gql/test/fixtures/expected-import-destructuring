@@ -1,0 +1,9 @@
+import { gql } from 'fusion-apollo';
+import { gql as gqlOther } from 'gql';
+const path = './test';
+
+require("./file.graphql");
+
+gqlOther(path);
+
+require("./file.graphql");

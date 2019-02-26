@@ -254,6 +254,138 @@
    * 3. It's useful to have a centralized inventory of all projects and their important metadata.
    */
   "projects": [
+    {
+      "packageName": "fusion-plugin-http-handler",
+      "projectFolder": "fusion-plugin-http-handler"
+    },
+    {
+      "packageName": "fusion-plugin-i18n-react",
+      "projectFolder": "fusion-plugin-i18n-react"
+    },
+    {
+      "packageName": "create-fusion-app",
+      "projectFolder": "create-fusion-app"
+    },
+    {
+      "packageName": "fusion-plugin-service-worker",
+      "projectFolder": "fusion-plugin-service-worker"
+    },
+    {
+      "packageName": "eslint-config-fusion",
+      "projectFolder": "eslint-config-fusion"
+    },
+    {
+      "packageName": "fusion-plugin-rpc-redux-react",
+      "projectFolder": "fusion-plugin-rpc-redux-react"
+    },
+    {
+      "packageName": "fusion-cli",
+      "projectFolder": "fusion-cli"
+    },
+    {
+      "packageName": "fusion-core",
+      "projectFolder": "fusion-core"
+    },
+    {
+      "packageName": "fusion-plugin-apollo-server",
+      "projectFolder": "fusion-plugin-apollo-server"
+    },
+    {
+      "packageName": "fusion-tokens",
+      "projectFolder": "fusion-tokens"
+    },
+    {
+      "packageName": "fusion-test-utils",
+      "projectFolder": "fusion-test-utils"
+    },
+    {
+      "packageName": "fusion-react",
+      "projectFolder": "fusion-react"
+    },
+    {
+      "packageName": "fusion-scaffolder",
+      "projectFolder": "fusion-scaffolder"
+    },
+    {
+      "packageName": "fusion-apollo",
+      "projectFolder": "fusion-apollo"
+    },
+    {
+      "packageName": "fusion-apollo-universal-client",
+      "projectFolder": "fusion-apollo-universal-client"
+    },
+    {
+      "packageName": "fusion-plugin-rpc",
+      "projectFolder": "fusion-plugin-rpc"
+    },
+    {
+      "packageName": "fusion-plugin-error-handling",
+      "projectFolder": "fusion-plugin-error-handling"
+    },
+    {
+      "packageName": "fusion-plugin-i18n",
+      "projectFolder": "fusion-plugin-i18n"
+    },
+    {
+      "packageName": "fusion-plugin-node-performance-emitter",
+      "projectFolder": "fusion-plugin-node-performance-emitter"
+    },
+    {
+      "packageName": "fusion-plugin-browser-performance-emitter",
+      "projectFolder": "fusion-plugin-browser-performance-emitter"
+    },
+    {
+      "packageName": "fusion-plugin-universal-events",
+      "projectFolder": "fusion-plugin-universal-events"
+    },
+    {
+      "packageName": "fusion-plugin-universal-events-react",
+      "projectFolder": "fusion-plugin-universal-events-react"
+    },
+    {
+      "packageName": "fusion-rpc-redux",
+      "projectFolder": "fusion-rpc-redux"
+    },
+    {
+      "packageName": "fusion-plugin-redux-action-emitter-enhancer",
+      "projectFolder": "fusion-redux-action-emitter-enhancer"
+    },
+    {
+      "packageName": "fusion-plugin-react-redux",
+      "projectFolder": "fusion-plugin-react-redux"
+    },
+    {
+      "packageName": "fusion-plugin-introspect",
+      "projectFolder": "fusion-plugin-introspect"
+    },
+    {
+      "packageName": "fusion-plugin-universal-logger",
+      "projectFolder": "fusion-plugin-universal-logger"
+    },
+    {
+      "packageName": "fusion-plugin-csrf-protection",
+      "projectFolder": "fusion-plugin-csrf-protection"
+    },
+    {
+      "packageName": "fusion-plugin-font-loader-react",
+      "projectFolder": "fusion-plugin-font-loader-react"
+    },
+    {
+      "packageName": "fusion-plugin-react-helmet-async",
+      "projectFolder": "fusion-plugin-react-helmet-async"
+    },
+    {
+      "packageName": "fusion-plugin-jwt",
+      "projectFolder": "fusion-plugin-jwt"
+    },
+    {
+      "packageName": "fusion-plugin-react-router",
+      "projectFolder": "fusion-plugin-react-router"
+    },
+    {
+      "packageName": "fusion-plugin-styletron-react",
+      "projectFolder": "fusion-plugin-styletron-react"
+    },
 
   ]
 }
