@@ -1,0 +1,14 @@
+[ignore]
+.*/common/temp/yarn-cache/.*
+.*/fixtures/failure/.*
+
+[include]
+
+[libs]
+fusion-core/flow-typed
+
+[lints]
+
+[options]
+
+[strict]
