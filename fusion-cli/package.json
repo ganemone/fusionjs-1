@@ -1,6 +1,6 @@
 {
   "name": "fusion-cli",
-  "version": "1.17.0",
+  "version": "1.18.0-alpha.2",
   "description": "CLI",
   "repository": "fusionjs/fusion-cli",
   "bin": {
@@ -32,7 +32,7 @@
     "compression-webpack-plugin": "^2.0.0",
     "enzyme-adapter-react-16": "^1.10.0",
     "enzyme-to-json": "^3.3.4",
-    "get-port": "^4.1.0",
+    "get-port": "^4.2.0",
     "graphql-tag": "^2.10.1",
     "http-proxy": "^1.17.0",
     "iltorb": "^2.4.1",
@@ -64,7 +64,7 @@
     "babel-eslint": "^10.0.1",
     "chrome-remote-interface": "^0.27.0",
     "enzyme": "^3.9.0",
-    "eslint": "^5.14.1",
+    "eslint": "^5.15.0",
     "eslint-config-fusion": "^4.0.0",
     "eslint-plugin-cup": "^2.0.1",
     "eslint-plugin-flowtype": "^3.4.2",
@@ -72,8 +72,8 @@
     "eslint-plugin-jest": "^22.3.0",
     "eslint-plugin-prettier": "^3.0.1",
     "eslint-plugin-react": "^7.12.4",
-    "flow-bin": "^0.93.0",
-    "fusion-core": "^1.10.4-0",
+    "flow-bin": "^0.94.0",
+    "fusion-core": "^1.10.4-1",
     "fusion-plugin-i18n": "^1.2.0",
     "fusion-plugin-i18n-react": "^1.2.4-0",
     "fusion-plugin-react-router": "^1.5.2",
@@ -94,7 +94,7 @@
     "unfetch": "^4.0.1"
   },
   "peerDependencies": {
-    "fusion-core": "^1.10.4-0",
+    "fusion-core": "^1.10.4-1",
     "fusion-tokens": "^1.1.1"
   },
   "engines": {

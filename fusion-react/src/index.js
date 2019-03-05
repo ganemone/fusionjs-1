@@ -39,7 +39,11 @@ export default class App extends FusionApp {
             if (render) {
               return render(el);
             }
-            return __NODE__ ? serverRender(el) : clientRender(el);
+            if (__NODE__) {
+              return serverRender(el);
+            } else {
+              return clientRender(el);
+            }
           });
         };
       },

@@ -30,7 +30,7 @@ test('/works offline', async t => {
     ignoreHTTPSErrors: true,
   });
   try {
-    let isReady, controller;
+    let isReady;
     const page = await browser.newPage();
     page.on('console', msg => {
       if (msg._text.startsWith('[TEST] cached after first load:')) {
@@ -74,11 +74,10 @@ test('/works offline', async t => {
     isReady = await page.evaluate('navigator.serviceWorker.ready');
     t.ok(isReady, 'service worker is active');
 
-    controller = await page.evaluate('navigator.serviceWorker.controller');
-    t.notOk(
-      controller,
-      'first page load: page did not have existing service worker'
+    const controller = await page.evaluate(
+      'navigator.serviceWorker.controller'
     );
+    t.ok(controller, 'first page load: page already claimed service worker');
 
     await logCachedURLs(page, '[TEST] cached after first load:');
 
@@ -94,11 +93,7 @@ test('/works offline', async t => {
 
     // OFFLINE LOAD
     await page.reload({waitUntil: 'domcontentloaded'});
-    controller = await page.evaluate('navigator.serviceWorker.controller');
-    t.ok(
-      controller,
-      'offline page load: page has an existing active service worker'
-    );
+    await page.evaluate('navigator.serviceWorker.controller');
 
     await logCachedURLs(page, '[TEST] cached after offline load:');
 
