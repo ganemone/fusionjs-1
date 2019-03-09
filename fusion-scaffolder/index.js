@@ -129,6 +129,10 @@ async function install(projectPath) {
         }
       );
     }
+    child.on('error', e => {
+      // eslint-disable-next-line no-console
+      console.error(e);
+    });
     child.on('close', code => {
       if (code !== 0) {
         reject(
