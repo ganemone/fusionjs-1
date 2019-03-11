@@ -14,7 +14,7 @@ function log(execOutput) {
 test('scaffolded app tests pass', async () => {
   await exec(`mkdir test-artifacts`);
   log(
-    await exec(`node ../bin/cli.js test-scaffold`, {cwd: './test-artifacts'})
+    await exec(`node ../bin/cli.js test-scaffold`, {cwd: './test-artifacts', env: process.env})
   );
 
   const options = {cwd: './test-artifacts/test-scaffold'};
