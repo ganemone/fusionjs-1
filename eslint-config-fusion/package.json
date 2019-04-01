@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-fusion",
-  "version": "4.0.0",
+  "version": "0.0.0-PLACEHOLDER",
   "description": "eslint-config-fusion is an eslint config recommended for use with FusionJS.",
   "license": "MIT",
   "repository": "fusionjs/eslint-config-fusion",
@@ -15,19 +15,19 @@
   "peerDependencies": {
     "eslint-plugin-flowtype": "^3.4.2",
     "eslint-plugin-import": "^2.16.0",
-    "eslint-plugin-jest": "^22.3.0",
+    "eslint-plugin-jest": "^22.4.1",
     "eslint-plugin-react": "^7.12.3"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1",
-    "eslint": "^5.15.0",
+    "eslint": "^5.16.0",
     "eslint-plugin-cup": "^2.0.1",
     "eslint-plugin-flowtype": "^3.4.2",
     "eslint-plugin-import": "^2.16.0",
-    "eslint-plugin-jest": "^22.3.0",
+    "eslint-plugin-jest": "^22.4.1",
     "eslint-plugin-prettier": "^3.0.1",
     "eslint-plugin-react": "^7.12.4",
-    "flow-bin": "^0.94.0",
+    "flow-bin": "^0.95.1",
     "prettier": "^1.16.4"
   },
   "scripts": {
