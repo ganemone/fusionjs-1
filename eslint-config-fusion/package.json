@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-fusion",
-  "version": "0.0.0-PLACEHOLDER",
+  "version": "4.0.0",
   "description": "eslint-config-fusion is an eslint config recommended for use with FusionJS.",
   "license": "MIT",
   "repository": "fusionjs/eslint-config-fusion",

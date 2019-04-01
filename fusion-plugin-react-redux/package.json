@@ -1,7 +1,7 @@
 {
   "name": "fusion-plugin-react-redux",
   "description": "Integrates React and Redux to a Fusion.js application",
-  "version": "0.0.0-PLACEHOLDER",
+  "version": "1.1.1",
   "license": "MIT",
   "repository": "fusionjs/fusion-plugin-react-redux",
   "files": [
@@ -29,7 +29,7 @@
     "enzyme": "^3.9.0",
     "enzyme-adapter-react-16": "^1.11.2",
     "eslint": "^5.16.0",
-    "eslint-config-fusion": "^0.0.0-PLACEHOLDER",
+    "eslint-config-fusion": "^4.0.0",
     "eslint-plugin-cup": "^2.0.1",
     "eslint-plugin-flowtype": "^3.4.2",
     "eslint-plugin-import": "^2.16.0",
@@ -37,8 +37,8 @@
     "eslint-plugin-react": "^7.12.4",
     "execa": "^1.0.0",
     "flow-bin": "^0.95.1",
-    "fusion-core": "^0.0.0-PLACEHOLDER",
-    "fusion-test-utils": "^0.0.0-PLACEHOLDER",
+    "fusion-core": "^1.10.4-1",
+    "fusion-test-utils": "^1.4.1-0",
     "nyc": "^13.3.0",
     "prettier": "^1.16.4",
     "react": "^16.8.6",
@@ -50,7 +50,7 @@
     "eslint-plugin-jest": "^22.4.1"
   },
   "peerDependencies": {
-    "fusion-core": "^0.0.0-PLACEHOLDER",
+    "fusion-core": "^1.10.4-1",
     "react": "^16.8.6",
     "react-redux": "^5.1.1",
     "redux": "^4.0.1"

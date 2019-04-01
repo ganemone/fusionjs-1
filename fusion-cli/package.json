@@ -1,6 +1,6 @@
 {
   "name": "fusion-cli",
-  "version": "0.0.0-PLACEHOLDER",
+  "version": "1.18.0-alpha.2",
   "description": "CLI",
   "repository": "fusionjs/fusion-cli",
   "bin": {
@@ -22,7 +22,7 @@
     "@gfx/zopfli": "^1.0.10",
     "@rtsao/plugin-proposal-class-properties": "7.0.1-patch.1",
     "babel-core": "^7.0.0-bridge.0",
-    "babel-jest": "^24.5.0",
+    "babel-jest": "^24.6.0",
     "babel-plugin-dynamic-import-node": "^2.2.0",
     "babel-plugin-transform-cup-globals": "^1.0.1",
     "babel-plugin-transform-styletron-display-name": "^1.1.0",
@@ -40,7 +40,7 @@
     "imagemin-svgo": "^7.0.0",
     "istanbul-api": "^2.0.6",
     "istanbul-lib-coverage": "^2.0.1",
-    "jest": "^24.5.0",
+    "jest": "^24.6.0",
     "jest-environment-jsdom-global": "^1.2.0",
     "just-snake-case": "^1.1.0",
     "koa-mount": "^4.0.0",
@@ -65,7 +65,7 @@
     "chrome-remote-interface": "^0.27.0",
     "enzyme": "^3.9.0",
     "eslint": "^5.16.0",
-    "eslint-config-fusion": "^0.0.0-PLACEHOLDER",
+    "eslint-config-fusion": "^4.0.0",
     "eslint-plugin-cup": "^2.0.1",
     "eslint-plugin-flowtype": "^3.4.2",
     "eslint-plugin-import": "^2.16.0",
@@ -73,14 +73,14 @@
     "eslint-plugin-prettier": "^3.0.1",
     "eslint-plugin-react": "^7.12.4",
     "flow-bin": "^0.95.1",
-    "fusion-core": "^0.0.0-PLACEHOLDER",
-    "fusion-plugin-i18n": "^0.0.0-PLACEHOLDER",
-    "fusion-plugin-i18n-react": "^0.0.0-PLACEHOLDER",
-    "fusion-plugin-react-router": "^0.0.0-PLACEHOLDER",
-    "fusion-plugin-universal-events": "^0.0.0-PLACEHOLDER",
-    "fusion-react": "^0.0.0-PLACEHOLDER",
-    "fusion-test-utils": "^0.0.0-PLACEHOLDER",
-    "fusion-tokens": "^0.0.0-PLACEHOLDER",
+    "fusion-core": "^1.10.4-1",
+    "fusion-plugin-i18n": "^1.2.0",
+    "fusion-plugin-i18n-react": "^1.2.4-0",
+    "fusion-plugin-react-router": "^1.5.2",
+    "fusion-plugin-universal-events": "^1.3.2",
+    "fusion-react": "^1.3.7",
+    "fusion-test-utils": "^1.4.1-0",
+    "fusion-tokens": "^1.1.1",
     "globby": "^8.0.1",
     "graphql": "^14.1.1",
     "locale": "^0.1.0",
@@ -94,8 +94,8 @@
     "unfetch": "^4.0.1"
   },
   "peerDependencies": {
-    "fusion-core": "^0.0.0-PLACEHOLDER",
-    "fusion-tokens": "^0.0.0-PLACEHOLDER"
+    "fusion-core": "^1.10.4-1",
+    "fusion-tokens": "^1.1.1"
   },
   "engines": {
     "node": ">= 8.9.0"
