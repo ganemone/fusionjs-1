@@ -15,4 +15,4 @@ steps:
     env:
       - UNPM_TOKEN
     agents:
-      queue: default
+      queue: workers

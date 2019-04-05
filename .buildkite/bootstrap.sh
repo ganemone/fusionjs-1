@@ -15,7 +15,7 @@ for d in */ ; do (
       echo "        env:";
       echo "          - UNPM_TOKEN";
       echo "    agents:";
-      echo "      queue: default";
+      echo "      queue: workers";
     elif [ $PROJECT = "create-fusion-app" ]; then
       echo "  - label: create-fusion-app"
       echo "    command: node common/scripts/install-run-rush.js test -t create-fusion-app";
@@ -26,7 +26,7 @@ for d in */ ; do (
       echo "        env:";
       echo "          - UNPM_TOKEN";
       echo "    agents:";
-      echo "      queue: default";
+      echo "      queue: workers";
     else
       echo "  - label: $PROJECT";
       echo "    command: cd $PROJECT && ../common/temp/yarn-local/node_modules/.bin/yarn test";
@@ -37,7 +37,7 @@ for d in */ ; do (
       echo "        env:";
       echo "          - UNPM_TOKEN";
       echo "    agents:";
-      echo "      queue: default";
+      echo "      queue: workers";
     fi;
   fi;
 ); done;
@@ -57,4 +57,4 @@ echo "    plugins:";
 echo "      'docker-compose#v3.0.0':";
 echo "        run: ci";
 echo "    agents:";
-echo "      queue: default";
+echo "      queue: workers";
