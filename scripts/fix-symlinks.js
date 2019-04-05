@@ -2,14 +2,14 @@ const {symlinkSync: link} = require('fs');
 
 try {
   link(
-    `${__dirname}/../public/fusion-cli/bin/cli.js`,
-    `${__dirname}/../public/create-fusion-app/node_modules/.bin/fusion`
+    `${__dirname}/fusion-cli/bin/cli.js`,
+    `${__dirname}/create-fusion-app/node_modules/.bin/fusion`
   );
 } catch (e) {}
 
 try {
   link(
-    `${__dirname}/../public/fusion-cli/bin/cli.js`,
-    `${__dirname}/../public/fusion-apollo-universal-client/node_modules/.bin/fusion`
+    `${__dirname}/fusion-cli/bin/cli.js`,
+    `${__dirname}/fusion-apollo-universal-client/node_modules/.bin/fusion`
   );
 } catch (e) {}
