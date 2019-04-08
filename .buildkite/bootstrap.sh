@@ -6,7 +6,7 @@ for d in */ ; do (
   if [ -d "$d" ] && [ $PROJECT != "common" ] && [ $PROJECT != "scripts" ]; then
     if [ $PROJECT = "fusion-cli" ]; then
       echo "  - label: fusion-cli";
-      echo "    command: cd public/fusion-cli && .buildkite/nodeTests";
+      echo "    command: cd fusion-cli && .buildkite/nodeTests";
       echo "    parallelism: 10";
       echo "    timeout_in_minutes: 10";
       echo "    plugins:";
